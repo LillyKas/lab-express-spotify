@@ -1,0 +1,137 @@
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background{
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: auto;
+    margin: -10px; 
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container-background{
+    background-color: rgba(255, 255, 255, 0.679);
+    width: 600px; 
+    height: 300px;
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 400px; 
+    height: 25px;
+    border: none; 
+    box-shadow: 1px 1px #88888886;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+
+button{
+    background-color: rgba(255, 28, 28, 0.755);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+   
+    
+  }
+
+  .grid-item{
+      background-color: rgb(82, 82, 82);
+      color: white;
+      display: flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+      padding: 10px;
+  }
+
+
+  .grid-item h2{
+font-size: 20px;
+  }
+
+  
+  .grid-item a{ 
+    text-decoration: none;
+    color: white;
+    background-color: rgb(227, 57, 91);
+    padding: 10px;
+    border-radius: 5px;
+      }
+
+      .container{
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:stretch;
+       
+      }
+
+      table {
+        border-collapse: separate;
+        border-spacing: 0 2px;
+      }
+
+      tr{
+        background-color: rgb(234, 234, 234);
+    
+    
+      }
+
+      td{
+         
+          text-align: end;
+         
+      }
+
+      td p {
+          text-align: start;
+      }
+
+      th{
+          padding: 20px;
+          background-color: rgb(63, 63, 63);
+          color: white;
+          font-size: 22px;
+      }
+
+      .left{
+        text-align: start;
+      }
+
+      .right{
+        text-align: center;
+    
+      }
+
+
+    

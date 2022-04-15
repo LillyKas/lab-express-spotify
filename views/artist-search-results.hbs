@@ -1,0 +1,21 @@
+
+
+<div class="grid-container">
+
+{{#each artists}}
+
+<div class="grid-item">
+
+<img src="{{images.[1].url}}" alt="poster for {{title}}">
+
+<h2>
+    {{name}}
+</h2>
+
+<a href="/albums/{{id}}" >View Albums</a>
+
+</div>
+
+
+{{/each}}
+</div>
